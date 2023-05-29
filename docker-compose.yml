@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  et:
+    build: .
+    ports:
+      - 9000:8080
